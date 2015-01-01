@@ -26,5 +26,15 @@ public class UserInfo {
 		return "<User>" + "<Age>" + age + "</Age>" + "</User>";
 	}
 	
+	@GET
+	@Path("/address/{k}")
+	//@Produces(MediaType.APPLICATION_JSON)
+	@Produces("application/json;charset=UTF-8")  
+	public String userAddress(@PathParam("k") String k){
+		String address = k;
+		return "{\""+address+"\":\"中国北京\",\"quyu\":\"昌平区\"}";
+	}
+	
+	
 	
 }

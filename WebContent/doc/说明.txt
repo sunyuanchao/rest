@@ -1,3 +1,4 @@
 
 访问路径：
 http://localhost:8080/RESTfulWS/rest/userInfoService/name/Pavithra
+http://localhost:8080/RESTfulWS/rest/userInfoService/address/beijing
